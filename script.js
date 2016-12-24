@@ -1,16 +1,10 @@
 $(document).ready(function(){
-$("#glog").show();
 
 
-
-
-
-
-$("#s").hide();
 
 setTimeout(function () {
-	$("#s").fadeIn(600);
 $('#s').inputfit();
+$('#s').fadeTo( "1000", 1.0 )
 }, 2000); // Execute something() 1 second later.
 
 

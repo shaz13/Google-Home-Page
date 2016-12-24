@@ -1,21 +1,46 @@
 
 body {
-
-
   position: relative;
 }
+[placeholder] {
+  transition: opacity 0.5s 0s ease;
+  opacity: 1;
+}
+[placeholder]:focus::-webkit-input-placeholder {
+  transition: opacity 0.5s 0s ease;
+  opacity: 0;
+}
+
+div.topbar {
+    position: fixed;
+    right: 0;
+}
+div.search {
+  display: table-caption;
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+#glog {
+      z-index: -1;
+      vertical-align: middle;
+      width: 380px;
+      position: relative;
+}
 #s{
-  border: none;
-    display: none;
+
+opacity: 0;
     color: #9298a2;
     font-family: 'Roboto', sans-serif;
-    position: fixed;
-    top: 40%;
-    left: 28%;
+
+    border: 0px solid;
+
     width: 600px;
-    z-index: 1;
-  font-size: 65px;
-  background-color: white;
+
+    font-size: 65px;
+    background-color: white;
 	 }
 
 textarea:focus, input:focus
@@ -28,7 +53,7 @@ outline: none;
 input
 {
     text-align: center;
-    padding-right: 39px;
+
 }
 
 img#shaz {
@@ -44,14 +69,7 @@ input {
     width: 100%;
 	  align-content:center;
 }
-#glog {
-  display: none;
-  z-index: 1;
-  width: 380px;
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, 60%);
+
 
 
 }
@@ -139,45 +157,26 @@ position: fixed;
 	{
 
     #glog {
-    display: none;
     z-index: 1;
-        left: 50%;
-    width: 780px;
-  }
-
-  div.credits
-  {
-
-    font-family: Roboto;
-    font-weight: 500;
-    /* border: 2px solid; */
-    font-weight: bold;
-    bottom: 10px;
-    font-size: 32px;
-
-    right: 20px;
-    color: #808286 !important;
-    text-decoration: none !important;
-    position: fixed;
-
-  }
-
-  a {
-    color: #808286 !important;
-    text-decoration: none !important;
-  }
-
-  #s {
-    border: none;
-    display: none;
+    vertical-align: middle;
+    width: 680px;
+    position: relative;
+}
+#s {
     color: #9298a2;
     font-family: 'Roboto', sans-serif;
-    position: absolute;
-    top: 600px;
-    left: 19%;
+    border: 0px solid;
     width: 600px;
     z-index: 1;
-    font-size: 75px;
+    font-size: 115px;
     background-color: white;
+
 }
+div.fbar,a._Gs,a.shaz {
+display: none;
+}
+img#shaz {
+    width: 70px;
+}
+
 }
