@@ -69,6 +69,20 @@ input {
     100% { opacity:1; }
 }
 
+a
+{
+font-family: Roboto;
+font-weight: 500;
+/* border: 2px solid; */
+font-weight: bold;
+bottom: 10px;
+font-size: 17px;
+right: 20px;
+color: #808286;
+text-decoration: none;
+position: fixed;
+}
+
 @media only screen
   and (min-device-width: 0px)
   and (max-device-width: 480px)
@@ -82,17 +96,38 @@ input {
         left: 50%;
     width: 780px;
   }
+
+  a
+  {
+
+    font-family: Roboto;
+    font-weight: 500;
+    /* border: 2px solid; */
+    font-weight: bold;
+    bottom: 10px;
+    font-size: 32px;
+
+    right: 20px;
+    color: #808286;
+    text-decoration: none;
+    position: fixed;
+
+  }
+
+
+
   #s {
     border: none;
     display: none;
     color: #9298a2;
     font-family: 'Roboto', sans-serif;
-    position: fixed;
-    top: 40%;
-    left: 19%;
-    width: 600px;
+    position: absolute;
+  top: 600px;
+  /* bottom: 2%; */
+  left: 19%;
+  width: 600px;
     z-index: 1;
-    font-size: 85px;
+    font-size: 75px;
     background-color: white;
 }
 }

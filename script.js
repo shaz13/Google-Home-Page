@@ -20,9 +20,10 @@ $("#s").keyup(function(event){
 
 			window.location = "https://www.google.co.in/?gfe_rd=cr&ei=XB9eWKidKvLx8AfvkIr4Cw#q=" + $('#s').val();
 		}
-
-
 });
+
+
+
 
 
 
