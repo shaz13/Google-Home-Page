@@ -7,6 +7,6 @@ You can also type in the long tail keywords and see the font-size shrink as the 
 
 
 Demo provided at my site. 
-Google Home Page Preview http://www.mohammadshahebaz.com/gpage/
+Google Home Page Preview http://www.mohammadshahebaz.com/github/gpage/
 
 Peace.
