@@ -157,6 +157,7 @@ position: fixed;
 @media only screen
   and (min-device-width: 0px)
   and (max-device-width: 480px)
+  and (min-device-height: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait)
 	{
@@ -165,7 +166,8 @@ position: fixed;
     z-index: 1;
     vertical-align: middle;
     width: 680px;
-    position: relative;
+    position: fixed;
+    top: 25%;
 }
 #s {
     color: #9298a2;
@@ -173,8 +175,10 @@ position: fixed;
     border: 0px solid;
     width: 600px;
     z-index: 1;
-    font-size: 115px;
+
+    font-size: 105px;
     background-color: white;
+    position: relative;;
 
 }
 div.fbar,a._Gs,a.shaz {
